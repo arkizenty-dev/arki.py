@@ -1,1 +1,1 @@
-worker: python arki
+worker: python bot
