@@ -1,1 +1,1 @@
-worker: python bot
+worker: python3.6 arki.py
