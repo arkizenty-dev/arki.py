@@ -1,6 +1,5 @@
 # imports modules used
 
-
 import discord
 import platform
 import time
@@ -11,9 +10,12 @@ import random
 python_version=platform.python_version()
 start_time=time.asctime()
 
+
+# a~arki quotes
+
 quotes = ['For some reason, people started calling me a "markov-bot clone"',
           'I have started running on a raspberry pi now, but I feel a lot slower now',
-          'Someday I will say useful things, but for now I can not think of any',
+          'Someday I will say something useful things, but for now I can not think of any',
           'I wonder when arkizenty is going to add anything useful...',
           'Heh, I can run 24/7 now',
           'I wonder how arkizenty is doing...',
@@ -23,6 +25,17 @@ quotes = ['For some reason, people started calling me a "markov-bot clone"',
           f'How are you doing?',
           f'~arki.py Lemme check the Python version...']
 random.shuffle(quotes)
+
+
+
+# ~jokes quotes
+
+jokes = ['I told my wife she was drawing her eyebrows too high. She looked surprised. ```Submitted by Scrappy_Larue https://www.reddit.com/r/AskReddit/comments/2f17dv/whats_your_best_two_line_joke/ck538op```',
+         'My grandpas last words before kicking the bucket.  Grandpa: I wonder how far I can kick this bucket ```Submitted by ??? https://www.reddit.com/r/AskReddit/comments/3d08ds/whats_your_favourite_one_or_twoline_joke/ct0oexz```']
+random.shuffle(jokes)
+
+
+
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -35,20 +48,28 @@ class MyClient(discord.Client):
             # Response's towards users
 
             if message.content.lower() == "hi":
-                await  client.send_message(message.channel, f'Hello there {message.author}! :D')
+                await  client.send_message(message.channel, f'Hello there {message.author.mention}! :D')
                 print(f'{message.author} said hi on {start_time}')
 
             if message.content.lower() == "hola":
-                await client.send_message(message.channel, f'Hello there {message.author}! :D')
+                await client.send_message(message.channel, f'Hello there {message.author.mention}! :D')
                 print(f'{message.author} said hola on {start_time}')
 
             if message.content.lower() == "hello":
-                await client.send_message(message.channel, f'Hello there {message.author}! :D')
+                await client.send_message(message.channel, f'Hello there {message.author.mention}! :D')
                 print(f'{message.author} said hello on {start_time}')
+
+            if message.content.lower() == "hello!":
+                await client.send_message(message.channel, f'Hello there {message.author.mention}! :D')
+                print(f'{message.author} said hello! on {start_time}')
 
             if message.content.lower() == "gay":
                 await client.send_message(message.channel, 'no u')
                 print(f'{message.author} said gay on {start_time}')
+
+            if message.content.lower() == "gae":
+                await client.send_message(message.channel, 'no u')
+                print(f'{message.author} said gae on {start_time}')
 
 
 
@@ -71,7 +92,8 @@ class MyClient(discord.Client):
                 await client.send_message(message.author, '```~relax - ???```'
                                                            '```~pour - ???```'
                                                            '```@someone - ???```'
-                                                          '```a~arki - Makes the bot say *useful* things```')
+                                                          '```a~arki - Makes the bot say *useful* things```'
+                                                          '```~joke - Tells a joke to the user```')
                 print(f'{message.author} used ~secrets on {start_time}')
 
             if message.content.startswith('~about'):
@@ -92,7 +114,7 @@ class MyClient(discord.Client):
             # Secret Commands
 
             if message.content.startswith('~relax'):
-                await client.send_message(message.channel, f'Ｒ　ｅ　Ｌ　ａ　ｘ　 {message.author} https://youtu.be/WYUOKnZkgko')
+                await client.send_message(message.channel, f'Ｒ　ｅ　Ｌ　ａ　ｘ　 {message.author.mention} https://youtu.be/WYUOKnZkgko')
                 print(f'{message.author} used ~relax on {start_time}')
 
             if message.content.startswith('~pour'):
@@ -106,6 +128,10 @@ class MyClient(discord.Client):
             if message.content.startswith('a~arki'):
                 await client.send_message(message.channel, random.choice(quotes))
                 print(f'{message.author} used a~arki on {start_time}')
+
+            if message.content.startswith('~joke'):
+                await client.send_message(message.channel, random.choice(jokes))
+                print(f'{message.author} used ~joke on {start_time}')
 
 
 
