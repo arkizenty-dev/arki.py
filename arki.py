@@ -30,8 +30,8 @@ random.shuffle(quotes)
 
 # ~jokes quotes
 
-jokes = ['I told my wife she was drawing her eyebrows too high. She looked surprised. ```Submitted by Scrappy_Larue https://www.reddit.com/r/AskReddit/comments/2f17dv/whats_your_best_two_line_joke/ck538op```',
-         'My grandpas last words before kicking the bucket.  Grandpa: I wonder how far I can kick this bucket ```Submitted by ??? https://www.reddit.com/r/AskReddit/comments/3d08ds/whats_your_favourite_one_or_twoline_joke/ct0oexz```']
+jokes = ['I told my wife she was drawing her eyebrows too high. She looked surprised. ```Joke created by Scrappy_Larue https://www.reddit.com/r/AskReddit/comments/2f17dv/whats_your_best_two_line_joke/ck538op```',
+         'My grandpas last words before kicking the bucket.  Grandpa: I wonder how far I can kick this bucket ```Joke created by ??? https://www.reddit.com/r/AskReddit/comments/3d08ds/whats_your_favourite_one_or_twoline_joke/ct0oexz```']
 random.shuffle(jokes)
 
 
