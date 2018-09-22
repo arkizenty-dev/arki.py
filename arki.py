@@ -101,7 +101,7 @@ class MyClient(discord.Client):
                 print(f'{message.author} used ~about on {start_time}')
 
             if message.content.startswith('~arki.py'):
-                await client.send_message(message.channel, f'```Currently v1.0 Stress Test Mode running Python Version {python_version}```')
+                await client.send_message(message.channel, f'```Currently v1.0 running Python Version {python_version}```')
                 print(f'{message.author} used ~arki.py on {start_time}')
 
             if message.content.startswith('~time'):
