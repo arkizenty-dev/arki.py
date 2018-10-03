@@ -44,6 +44,7 @@ class MyClient(discord.Client):
 
         @client.event
         async def on_message(message):
+            if message.author.bot:return
 
             # Response's towards users
 
