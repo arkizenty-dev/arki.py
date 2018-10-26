@@ -18,7 +18,7 @@ arki.py commands
 * $credits - displays contributers of arki.py!
 
 arki.py credits
-===============
+================
 
 * arki#8251 - Main Developer/Creator of arki.py
 * EpicShardGamingYT#6666 - Helped prevent arki.py from responding to other bots
