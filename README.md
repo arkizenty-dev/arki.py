@@ -1,7 +1,7 @@
 about arki.py
 =============
 
-arki.py is a discord bot written in discord.py that mainly developed for random tasks like grabbing a users info or grabbing a mentioned users avatar. arki.py mainly developed by arki#8251. Tip: Use $help for a list of commands.
+arki.py is a discord bot written in discord.py that mainly developed for random tasks like grabbing a users info or grabbing a mentioned users avatar. arki.py mainly developed by arkizenty#7140. Tip: Use $help for a list of commands.
 
 arki.py commands
 ================
