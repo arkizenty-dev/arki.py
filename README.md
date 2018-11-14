@@ -20,7 +20,7 @@ arki.py commands
 arki.py credits
 ===============
 
-* arki#8251 - Main Developer/Creator of arki.py
+* arkizenty#7140 - Main Developer/Creator of arki.py
 * EpicShardGamingYT#6666 - Helped prevent arki.py from responding to other bots
 
 Bot invite: https://discordapp.com/oauth2/authorize?client_id=484539869922590721&permissions=67500096&scope=bot
