@@ -11,7 +11,6 @@ arki.py commands
 * $help - Shows a list of commands
 * $info - Shows info about arki.py
 * $clock - Shows the date and time
-* $secret - Shows the secret commands (Via Direct Messages)
 * $user - displays info about about a user
 * $avatar - grabs the mentioned users avatar
 * $contribute - displays info about helping out with arki.py
