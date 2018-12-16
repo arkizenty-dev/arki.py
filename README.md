@@ -1,3 +1,9 @@
+<a href="https://arkizenty.github.io/arki.py/" >
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="arki.py" />
+</a><a href="https://arkizenty.github.io/arki.py/" >
+  <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="arki.py" />
+</a>
+
 about arki.py
 =============
 
@@ -29,8 +35,3 @@ Test the bot out here: https://discord.gg/pkr4p2z
 <a href="https://discordbots.org/bot/484539869922590721" >
   <img src="https://discordbots.org/api/widget/484539869922590721.svg" alt="arki.py" />
 </a>
-
-<a href="https://arkizenty.github.io/arki.py/" >
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="arki.py" />
-</a>
-
